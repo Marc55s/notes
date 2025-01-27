@@ -1,0 +1,72 @@
+# Allgemeines zu Datenbanken
+- Datenbank-Management-System (DBMS)
+    - Ein System zur Verwaltung von Datenbanken, das Daten speichert, abruft und verwaltet.
+    - Datenstruktur
+        - Definition der Struktur wie die Daten gespeichert werden
+    - **Operationen** in relationalen Datenbanken umfassen das Hinzufügen, Lesen, Ändern und Löschen von Tabellen und Datensätzen.
+    - Integritätsbedingungen
+- Relationale DBMS
+    - Speicherung von Daten in Tabellen
+    - Verknüpfung von Tabellen per Primär- und Fremdschlüssel
+    - Unterstützung von Transaktionen
+    - SQL
+    - Einsatz
+        - E-commerce
+        - Personalverwaltung
+        - Bankwesen
+    - Datenbanken
+        - MySQL
+            - Unterstützt Teile der Standards
+        - MariaDB
+            - Starke Standardkonformität
+        - PostgreSQL
+            - Viele Funktionen
+- Transaktionen
+    - Ausführung von mehreren Datenbankoperationen als logischen Einheit
+    - Entweder erfolgreiche Ausführung aller Operationen (COMMIT)
+    - Oder Auführung keiner Operation (ROLLBACK)
+    - ACID
+        - Atomicity
+            - Alles oder nichts
+        - Isolation
+            - Unabhängigkeit
+        - Consistency
+            - garantiert gültiger Zustand
+        - Durability
+            - dauerhafte Speicherung
+- SQL-Teilsprachen
+    - Data Definition Language
+        - Definition eines DB-Schemas
+    - Data Manipulation Language
+    - Data Query Language
+    - Data Control Language
+    - Transaction Control Language
+
+- Structured Query Language
+- Deklarative Datenbanksprache für relationale Datenbanken
+- Bietet Möglichkeiten zur Datenabfrage und -manipulation
+- Sprache basiert auf relationaler Algebra
+- Standardisiert
+- MariaDB
+- Datentypen
+    - Für die Attribute in der Tabelle müssen Datentypen definiert werden
+    - Ganze Zahlen
+    - Gleitkomma, Festkomma
+    - Zeichenketten
+    - Text
+    - Datums und Zeitangaben
+- Speicher-Engines
+    - Unterschiedliche Typen
+    - InnoDB
+        - Default für MariaDB und MySQL
+        - Gut geeignet für Anwendungen mit hohen Ansprüchen an Transaktionssicherheit, Datenintegrität und Leistung
+    - MyISAM
+        - Performant bei Reads
+        - Keine Transaktionen
+        - Keine Fremdschlüssel
+    - Aria
+        - Optimiert für Lese- und Schreiboperationen
+        - Unterstützt Transaktionen
+        - Verwendet für MySQL-Datenbanken
+        - Bietet hohe Leistung und Skalierbarkeit
+        - Keine Fremdschlüssel
