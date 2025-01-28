@@ -1,3 +1,7 @@
+---
+tags:
+  - sql
+---
 # Joins
 ## Example
 ~~~~sql
