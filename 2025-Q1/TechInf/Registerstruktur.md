@@ -42,7 +42,7 @@ ADDNE r0,r1,r2 @NE = not equal
 - RSB = Reverse Sub
 - RSC = Reverse Sub mit carry - 1
 - TST = CC[¹] wird gesetzt wenn Op1 AND Op1
-- TEQ = CC[¹] wird gesetzt wenn Op1 OR Op2
+- TEQ = CC[^1] wird gesetzt wenn Op1 OR Op2
 - CMP = compare
 - CMN = compare negiert
 - MOV = move https://sunrise-sunset.org/api
@@ -63,4 +63,4 @@ ADDNE r0,r1,r2 @NE = not equal
 - Rotate wird genutzt um größere Konstanten darzustellen --> Deshalb sind manche Zahlen nur bedingt möglich
 
 
-[¹]Completion Code
+[¹]: Completion Code
