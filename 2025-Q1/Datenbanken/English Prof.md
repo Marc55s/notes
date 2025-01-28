@@ -128,4 +128,3 @@ Import:
             - Transactions do not affect each other
         - Durability
             - Changes persist even after a crash
-- 

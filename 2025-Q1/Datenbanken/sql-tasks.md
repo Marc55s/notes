@@ -20,7 +20,6 @@ create table stores (
     name varchar(255),
     location varchar(255),
 );
-~~~~sql
 ~~~~
 
 ## solution prof
