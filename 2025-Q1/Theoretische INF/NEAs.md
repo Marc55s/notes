@@ -28,3 +28,5 @@ tags:
 - Mithilfe der Bildung der Hülle kann der NEA gebildet werden
 ## $\varepsilon$ - NEA --> DEA
 - NEA schritt kann übersprungen(?)
+# Kleensche Hülle
+- Mithilfe einer Hülle können alle Permutationen einer Sprache darstellen
