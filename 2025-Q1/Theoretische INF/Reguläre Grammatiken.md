@@ -1,3 +1,8 @@
+---
+tags:
+  - Automat
+  - Grammatik
+---
 
 # Recap
 - Automat: **prüft** eine Sprache (Parser)
