@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"ffbc533e95638886","type":"text","text":"Auffüllen","x":-125,"y":-280,"width":250,"height":60},
+		{"id":"5ddaa1bb4ee621eb","type":"text","text":"Zapfen","x":-125,"y":360,"width":250,"height":60},
+		{"id":"b8a9dbcc535c7360","type":"text","text":"Transaktion fehlgeschlagen","x":180,"y":-40,"width":195,"height":60,"color":"4"},
+		{"id":"ef9738c505a0a822","type":"text","text":"Bereit","x":-125,"y":-140,"width":250,"height":60},
+		{"id":"70b90f6259a9a898","type":"text","text":"Zahlvorgang","x":-125,"y":60,"width":250,"height":60},
+		{"id":"47f35bccf91aff83","type":"text","text":"Transaktion erfolgreich","x":-91,"y":160,"width":182,"height":60,"color":"4"},
+		{"id":"63e0dcc7612de936","type":"text","text":"Auswahl Kraftstoff","x":-125,"y":260,"width":250,"height":60},
+		{"id":"e4bfa4ccc97deecb","type":"text","text":"Zahlung starten","x":-91,"y":-40,"width":182,"height":60,"color":"4"},
+		{"id":"2f046c2240aef3c0","type":"text","text":"Beleg drucken","x":-125,"y":480,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"8714b53022f1c193","fromNode":"63e0dcc7612de936","fromSide":"bottom","toNode":"5ddaa1bb4ee621eb","toSide":"top"},
+		{"id":"31c415c97bbaa4db","fromNode":"ffbc533e95638886","fromSide":"bottom","toNode":"ef9738c505a0a822","toSide":"top"},
+		{"id":"947c0f822cc8a5b7","fromNode":"70b90f6259a9a898","fromSide":"bottom","toNode":"47f35bccf91aff83","toSide":"top"},
+		{"id":"9c412d5f8237ae0a","fromNode":"47f35bccf91aff83","fromSide":"bottom","toNode":"63e0dcc7612de936","toSide":"top"},
+		{"id":"5b90daa219f5f6f7","fromNode":"70b90f6259a9a898","fromSide":"right","toNode":"b8a9dbcc535c7360","toSide":"bottom"},
+		{"id":"0f6f49acbb1cb6e7","fromNode":"b8a9dbcc535c7360","fromSide":"top","toNode":"ef9738c505a0a822","toSide":"right"},
+		{"id":"f37fb44025d5f53b","fromNode":"ef9738c505a0a822","fromSide":"bottom","toNode":"e4bfa4ccc97deecb","toSide":"top"},
+		{"id":"2d6a5689cfd1ff9e","fromNode":"e4bfa4ccc97deecb","fromSide":"bottom","toNode":"70b90f6259a9a898","toSide":"top"},
+		{"id":"bba1ef1771fda8f4","fromNode":"2f046c2240aef3c0","fromSide":"left","toNode":"ef9738c505a0a822","toSide":"left"},
+		{"id":"d31b633006fa7c08","fromNode":"5ddaa1bb4ee621eb","fromSide":"bottom","toNode":"2f046c2240aef3c0","toSide":"top"}
+	]
+}
