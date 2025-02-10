@@ -92,3 +92,52 @@ b) MissUse-Rule
 - False Positive Rate
 - unbekannte Angriffe können erkannt werden
 3. Kombination aus beidem auch möglich
+### Exkurs: Statistik
+- Prävalenzverkehr: Beruht auf der Häufigkeit  von bestimmten Daten in einem Netzwerkverkehr
+    - viel normaler Vekehr $!A: P(!A)$
+    - wenig Schadverkehr    $A: P(A)$
+- Satz von Bayes
+$$False\ Positive (FP) = P(B|!A) * P(!A) $$
+-  B: Paket ist Angriff
+- !B: Paket ist Normal
+$$True\ Positive = P(B|A) * P(A)$$
+### Snort: Eine IDS/IPS-System
+- Snort gehört CISCO
+- Snort ist eine Opensource NIDS/NIPS-System
+- Snort bringt eine vielzahl an vordefinierten Regeln zur Erkennung von Cyberattacken
+1. Paketerfassung:
+- liest Datenverkehr und speicher im pcap-Format
+2. Extrahieren und Normalisieren (Paket-Decoder)
+- Der Decoder überprüf auf Integrität der Daten
+- Extrahiert und Normalisiert Header- und Nutzdaten
+3. Vorverarbeitung (Preprocessoren)
+- Frag3: Rekonstruiert fragmentierte IP-Pakete zur Kontexterstellung
+- Stream5: Reassembilierung des TCP-Datenstroms
+- HTTPInspekt: Voranalyse des HTTP-Datenverkehrs
+4. Regelabgleich (Detection-Engine)
+- Anwendung der Snort-Regeln
+5. Alarmierung (Alert-Engine)
+- Alarme und Logeinträge an eine SIEM-System senden
+6. (optional) Ergänzen um eine ML-Verfahren
+#### Snort Packet Decoder
+- Extrahiert MAC-Adressen sowie nachfolgendes Protokoll
+#### Snort Preprocessoren
+Aufgaben der Präprozessor-Schicht:
+- Zusammenfügen von IP-Fragmenten zu einem IP-Packet.
+- Zusammenfügen von TCP-Segmenten zu einem Applications-Bytestrom.
+- Analyse von Protocol-Misuse-Angriffen: TCP-Port-Scans (TCP-SYN-Request), ARP-Spoofing-Attacks, HTTP, …
+- Auslesen von applikationsspezifischen Header-Feldern und Normalisierung des Nachrichteninhalts
+#### Stream5
+- TCP-Reassembly: Seq-# wird verwednet um, Applikationspayload zu "reassemblieren"
+- UDP-Tracking: anhand Quell und Source Port/IP
+- Timeout: Begrenzung der Gültigkeit einer Session
+#### Snort Rules
+- header: action protocol source(IP und PORT) -> destination
+- (options): (options1:value1, options2:value2,...)
+Beispiel Header:
+- Ziel: Snort Regel für ICMP-Flooding (DDOS-Angriffe)
+- header: alert icmp any any -> 192.168.1.0/24 any
+- (options): (msg:"ICMP flood"; detection_filter:track by_dst, count 500, seconds 3;)
+#### Snort und ML
+- Eine Kombination von Snort mit einem Machine Learning (ML) Verfahren, 
+ermöglicht eine Analyse der von Snort gesammelten Daten mit dem Ziel unbekannte Angriffsmuster zu erkennen

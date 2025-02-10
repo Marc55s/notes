@@ -32,9 +32,11 @@
         2. Detektive Maßnahmen
             1. Logging des Netzwerkverkehrs/ Prozessen
             2. SIEM: kombinieren aller Logs durch SOC
+            3. IDS
         3. Reaktive Maßnahmen
             1. Firewall blockiert ungewollten Verkehr
             2. Secure E-Mail Gateway (Spam)
+            3. IPS
     - Least Common Mechanism
         - Minimierung gemeinsamer Ressourcen
         - Vermeidung von gemeinsamen Zugriffen
