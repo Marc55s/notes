@@ -7,4 +7,5 @@ tags:
 PDA - Push down Automaton
 - Endlicher Automat = PDEA
 - prüft Kontextfreie Grammatik
+- prüft eine nicht reguläre Grammatik
 
