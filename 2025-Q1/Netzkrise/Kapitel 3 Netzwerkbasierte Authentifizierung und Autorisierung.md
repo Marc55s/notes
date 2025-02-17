@@ -80,12 +80,24 @@ Der Prozess der Authentifizierung erfolgt über dedizierte Authentifizierungspro
 - I = In
 - U = User
 - S = Service
+- RADIUS mit EAP verwenden (EAP-TLS), weil sicher
 
 ## Dienste von RADIUS
 - AAA als Kerndienst
 - Authentication
 - Authorization
 - Auditing
+- AAA als zentral Instanz für das Management auf Netzwerkgeräten(Switch, Router, FW)
+- Supplicant: Network Access Device (NAD)
+- Authenticator: Network Attached Server (NAS)
+## RADIUS Authentifizierungsmethode 
+- PAP: Passowrd Authentication Protocol; Benutzername + Passwort Auth.
+- Passwort wird verschleiert mit MD5-Hash
+- MD5-Hash = MD5(Secretkey | Authentication)
+- pwd = pwd XOR MD5-Hash
+- CHAP: Challenge Handshake Authentication Protocol
+
+
 
 ## RADIUS-Protocol
 
