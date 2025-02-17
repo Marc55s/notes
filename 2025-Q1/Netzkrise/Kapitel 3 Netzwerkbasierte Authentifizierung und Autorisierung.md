@@ -39,6 +39,8 @@ Authentifizierung erfolgreiche: RADIUS-Server schickt Authentifizierungsdaten pe
 - uncontrolled Port:
     - default
     - lässt nur EAPol/EAP Nachrichten durch
+    - EAPol = initiale Nachricht vom Supplicant an Authenticator, EAPol-Paket transportiert EAP-Nachrichten
+    - EAPol-Key: 4-Way-Handshake (WPA2/WPA3)
     - Rest wird geblocked
 - Arbeitet wie eine Firewall
 - controlled Port: EAPol/EAP-Nachricht sind erluabt, Rest wird blockiert
