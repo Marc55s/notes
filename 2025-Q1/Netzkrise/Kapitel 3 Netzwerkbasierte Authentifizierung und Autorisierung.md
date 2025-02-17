@@ -81,6 +81,7 @@ Der Prozess der Authentifizierung erfolgt über dedizierte Authentifizierungspro
 - U = User
 - S = Service
 - RADIUS mit EAP verwenden (EAP-TLS), weil sicher
+- Standardmäßig kann PAP, eher nicht so
 
 ## Dienste von RADIUS
 - AAA als Kerndienst
@@ -96,8 +97,9 @@ Der Prozess der Authentifizierung erfolgt über dedizierte Authentifizierungspro
 - MD5-Hash = MD5(Secretkey | Authentication)
 - pwd = pwd XOR MD5-Hash
 - CHAP: Challenge Handshake Authentication Protocol
-
-
+## RADIUS Attribute
+- RADIUS kapselt EAP-Pakete im sogenannten EAP-Message- Attribut
+- Type 79 EAP-TLS
 
 ## RADIUS-Protocol
 
