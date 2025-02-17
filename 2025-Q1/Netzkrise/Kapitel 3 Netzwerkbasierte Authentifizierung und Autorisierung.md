@@ -38,12 +38,13 @@ Authentifizierung erfolgreiche: RADIUS-Server schickt Authentifizierungsdaten pe
 - jeder "Switch / WLAN " kennt 2 Zustände
 - uncontrolled Port:
     - default
+    - Supplicant kann nur mit Authentifizierungssystem kommunizieren
     - lässt nur EAP over LAN (EAPol)/EAP Nachrichten durch
     - EAPol = initiale Nachricht vom Supplicant an Authenticator, EAPol-Paket transportiert EAP-Nachrichten
     - EAPol-Key: 4-Way-Handshake (WPA2/WPA3)
     - Rest wird geblocked
 - Arbeitet wie eine Firewall
-- controlled Port: EAPol/EAP-Nachricht sind erluabt, Rest wird blockiert
+- controlled Port: EAPol/EAP-Nachricht sind erlaubt, Rest wird blockiert
 
 ### Ethernet-Switch
 ```bash
@@ -59,13 +60,33 @@ Authentifizierung erfolgreiche: RADIUS-Server schickt Authentifizierungsdaten pe
 - Internet Standard
 - Unterstützt verschiedene Authentifizierungsmethoden
 - EAP-TLS: Verwendet Zertifikate
+
 ## Nachrichtenformate
 - Mögliche Varianten an EAP-Response und EAP-Request Nachrichten
 
 # Portbased NAC
+Der Prozess der Authentifizierung erfolgt über dedizierte Authentifizierungsprotokolle 
+- EAPoL (EAP over LAN) dient als Transportprotokoll für EAP in LANs und WLANs. 
+- EAP (Extensible Authentification Protocol) übermittelt den Authentifizierungs-Payload (Authentifizierungsdaten und Algorithmen) und ist unabhängig vom Transportprotokoll. 
+- RADIUS (Remote Authentification Dial-In User Service) transportiert den Inhalt der EAP-Nachricht (Benutzer- name & Passwort) und übermittelt Access-Control- Information an einen zentralen RADIUS-Server.
 
 # RADIUS
 - Authentication-Server
 - Datenbank mit Rechten
+- RADIUS:
+- R = Remote
+- A = Authentication
+- D = Dial-
+- I = In
+- U = User
+- S = Service
+
+## Dienste von RADIUS
+- AAA als Kerndienst
+- Authentication
+- Authorization
+- Auditing
+
+## RADIUS-Protocol
 
 # Authentifizierung
