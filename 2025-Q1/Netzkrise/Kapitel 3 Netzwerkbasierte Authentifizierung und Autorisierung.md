@@ -44,11 +44,13 @@ Authentifizierung erfolgreiche: RADIUS-Server schickt Authentifizierungsdaten pe
     - Rest wird geblocked
 - Arbeitet wie eine Firewall
 - controlled Port: EAPol/EAP-Nachricht sind erluabt, Rest wird blockiert
+
 ### Ethernet-Switch
 ```bash
 # int GigEth0
 # dot2x port-control auto
 ```
+
 ### WLAN-AP
 - Authentication: 802.1X, EAP-Methode
 
@@ -57,8 +59,13 @@ Authentifizierung erfolgreiche: RADIUS-Server schickt Authentifizierungsdaten pe
 - Internet Standard
 - Unterstützt verschiedene Authentifizierungsmethoden
 - EAP-TLS: Verwendet Zertifikate
+## Nachrichtenformate
+- Mögliche Varianten an EAP-Response und EAP-Request Nachrichten
+
 # Portbased NAC
+
 # RADIUS
 - Authentication-Server
 - Datenbank mit Rechten
+
 # Authentifizierung
