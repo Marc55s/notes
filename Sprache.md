@@ -57,18 +57,25 @@
 ### Verfahren
 - Regex --> $\varepsilon$-NEA --> NEA --> DEA --> Regex
 ## Pumping-Lemma
-- Nachweisung, dass Sprache nicht Kontextfrei ist
+- Nachweisung, dass Sprache nicht Regulär ist
 - Notwendige Bedingung für die zugehörigkeit einer Sprache zu einer Sprachklasse
 - Pumping-Lemma für unendliche reguläre Sprachen
 - für jede reguläre Sprache $L_R$ gilt:
     - n (Pumpingzahl)
     - _jedes_ wort z in $L_R$ mit |z| >= n gibt es eine Zerlegung
     - z = uvw mit folgenden Bedingungen:
-    1. |u| + |v| = <= n
+    1. |u| + |v| <= n
     2. v ist nicht leer
     3. für jedes $i\in \mathbb{N}\ ist\ uv^{i}w$ in der Sprache
-    $$uwv\in L \and
-    uvvw\in L \and
+    $$uwv\in L \wedge
+    uvvw\in L \wedge
     uv...vw\in L$$
+### BSP
+- $L=\lbrace\ a^nb^n\ |\ n \geq \varnothing\rbrace$
+- aaaabbbbb, |w| >=8
+- N = 6 (Pumpingzahl)
+- Endlich reguläre Sprachen
+- Pumping-Lemma gilt
+- n > |längstes wort|
 
 
