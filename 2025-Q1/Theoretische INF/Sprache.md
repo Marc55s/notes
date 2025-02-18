@@ -70,6 +70,7 @@
     $$uwv\in L \wedge
     uvvw\in L \wedge
     uv...vw\in L$$
+- Pumping-Lemma für Kontextfreie Sprache (CFL)
 ### BSP
 - $L=\lbrace\ a^nb^n\ |\ n \geq \varnothing\rbrace$
 - aaaabbbbb, |w| >=8
@@ -77,5 +78,15 @@
 - Endlich reguläre Sprachen
 - Pumping-Lemma gilt
 - n > |längstes wort|
-
-
+### BSP 2
+1. $uv^{i}wx^{i}y$
+2. Summe der Längen = |v| + |w| + |x| <= n
+3. v oder x ist nicht leer
+4. für jedes wort und alle $i \in \mathbb{N}$ gibt es ein Wort in der Sprache
+- Kontextfrei: $0^n1^n$
+---
+# Abschlusseigenschaft regulärer Sprachen
+- Vereinigung L = L1+L2
+- Konkatenation L= L1L2
+- Kleene-Stern* L*
+- Durchschnitt
