@@ -18,7 +18,7 @@ tags:
 - P: Produktionsregeln {X -> bX | aY, Y -> bY | aZ, Z -> bZ | aY | E: Endzustand}
     - endliche Teilmenge von (N und T)*
 - S: Startsymbol {X}
-- - T steht immer rechts vom NT:
+- T steht immer rechts vom NT:
 	- linksreguläre Grammatik A->Ba
 	- Worte wachsen nach  links
 - T steht immer links vom NT:
