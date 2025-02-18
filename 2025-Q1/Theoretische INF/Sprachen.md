@@ -1,6 +1,7 @@
 ---tags:
 - Sprachen
 ---
+[[Sprachen exc]]
 - Natürliche gesprochene
 - Konstruierte Kunstsprachen
 	- formale Sprachen
@@ -104,3 +105,16 @@
 - 5 Spiegelung
 - 4 Durchschnitt, aber nur mit regulären Sprachen
 - sind nicht abgeschlossen unter dem 4 Durschnitt, 6 Komplement, 7 Differenz
+
+# Äquivalenzeigenschaft
+- Sind zwei Sprachen äquivalent? 
+- entscheidbar für reguläre Sprachen
+- für nicht reguläre in der Regel nicht entscheidbar
+- in minimierten DEA verwandeln --> testen ob gleich
+- Möglichkeiten:
+    - minimierte DEAs
+    - Produkt-DEA - PDEA
+- DEA (Startzustand q), DEA(Start p)
+- bilden für den PDEA einen neuen Startzustand (q,p)
+- $\delta((q,p),a) = \{\delta(q,a),\delta(p,a)\}$
+
