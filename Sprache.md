@@ -27,6 +27,9 @@
     - Menge = $\lbrace w|... \rbrace$
     - $L_{vorsilben} = \lbrace (hin, ab), (hin, aus)\rbrace$
     - Teilmenge $\subseteq \Sigma^{*}$
+    - endliche Sprachen sind immer regulär!
+    - unendliche Sprachen können regulär sein, müssen aber nicht
+    - unendliche Sprachen erkennt man, wenn der DEA n Zustände hat und L eine Zeichkette enthält Wort der Länge >= N 
 4. Regex E:
     - $\Sigma + \lbrace (,),+,*,?,^,\$ \rbrace$
     - Wenn $\alpha$ und $\beta$ Regex:
@@ -53,3 +56,19 @@
 4. Abschlusseigenschaft
 ### Verfahren
 - Regex --> $\varepsilon$-NEA --> NEA --> DEA --> Regex
+## Pumping-Lemma
+- Nachweisung, dass Sprache nicht Kontextfrei ist
+- Notwendige Bedingung für die zugehörigkeit einer Sprache zu einer Sprachklasse
+- Pumping-Lemma für unendliche reguläre Sprachen
+- für jede reguläre Sprache $L_R$ gilt:
+    - n (Pumpingzahl)
+    - _jedes_ wort z in $L_R$ mit |z| >= n gibt es eine Zerlegung
+    - z = uvw mit folgenden Bedingungen:
+    1. |u| + |v| = <= n
+    2. v ist nicht leer
+    3. für jedes $i\in \mathbb{N}\ ist\ uv^{i}w$ in der Sprache
+    $$uwv\in L \and
+    uvvw\in L \and
+    uv...vw\in L$$
+
+
