@@ -116,5 +116,7 @@
     - Produkt-DEA - PDEA
 - DEA (Startzustand q), DEA(Start p)
 - bilden für den PDEA einen neuen Startzustand (q,p)
+- wenn kein Endzustand dann äquivalent - wenn Produkt die leere Sprache beschreibt
+- wenn mindestens ein endzustand übrig dann 
 - $\delta((q,p),a) = \{\delta(q,a),\delta(p,a)\}$
 
