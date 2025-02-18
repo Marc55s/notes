@@ -42,8 +42,9 @@
     - $L=\lbrace\ a^nb^m|n,m\in \mathbb{N} \geq \varnothing\rbrace$
     - $m=\varnothing,n=\varnothing\ a^0\ b^0=\varepsilon$
 
-## Formale
+## Formale Sprachen
 - DEA
+
 ### Chomsky Typ der Sprachen
 - 3 reguläre 
 - 2 Kontextfrei
@@ -54,8 +55,10 @@
 2. Entscheidbarkeitseigenschaft
 3. Äquivalenzeigenschaft
 4. Abschlusseigenschaft
+
 ### Verfahren
 - Regex --> $\varepsilon$-NEA --> NEA --> DEA --> Regex
+
 ## Pumping-Lemma
 - Nachweisung, dass Sprache nicht Regulär ist
 - Notwendige Bedingung für die zugehörigkeit einer Sprache zu einer Sprachklasse
@@ -71,6 +74,7 @@
     uvvw\in L \wedge
     uv...vw\in L$$
 - Pumping-Lemma für Kontextfreie Sprache (CFL)
+
 ### BSP
 - $L=\lbrace\ a^nb^n\ |\ n \geq \varnothing\rbrace$
 - aaaabbbbb, |w| >=8
@@ -78,15 +82,25 @@
 - Endlich reguläre Sprachen
 - Pumping-Lemma gilt
 - n > |längstes wort|
+
 ### BSP 2
 1. $uv^{i}wx^{i}y$
 2. Summe der Längen = |v| + |w| + |x| <= n
 3. v oder x ist nicht leer
 4. für jedes wort und alle $i \in \mathbb{N}$ gibt es ein Wort in der Sprache
 - Kontextfrei: $0^n1^n$
+
 ---
+
 # Abschlusseigenschaft regulärer Sprachen
-- Vereinigung L = L1+L2
-- Konkatenation L= L1L2
-- Kleene-Stern* L*
-- Durchschnitt
+1. Vereinigung L = L1+L2
+2. Konkatenation L= L1L2
+3. Kleene-Stern* L*
+4. Durchschnitt L=L1 $\cap$ L2
+5. Spiegelung (Zeichenfolge in Wörtern umkehren)
+6. Komplement $\lbrace w\ über\ \Sigma^{*} | w\ \notin L \rbrace$
+7. Differenz L = L1 \ L2 $\lbrace w\ in\ L_1 + L_2 | w\ nur\ in\ L_1\ oder\ L_2$
+- 1-3
+- 5 Spiegelung
+- 4 Durchschnitt, aber nur mit regulären Sprachen
+- sind nicht abgeschlossen unter dem 4 Durschnitt, 6 Komplement, 7 Differenz
