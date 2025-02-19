@@ -64,7 +64,7 @@
 - Pumping-Lemma für unendliche reguläre Sprachen
 - für jede reguläre Sprache $L_R$ gilt:
     - n (Pumpingzahl)
-    - _jedes_ wort z in $L_R$ mit |z| >= n gibt es eine Zerlegung
+    - für _jedes_ wort z in $L_R$ mit |z| >= n gibt es eine Zerlegung
     - z = uvw mit folgenden Bedingungen:
     1. |u| + |v| <= n
     2. v ist nicht leer
@@ -117,4 +117,3 @@
 - wenn kein Endzustand dann äquivalent - wenn Produkt die leere Sprache beschreibt
 - wenn mindestens ein endzustand übrig dann 
 - $\delta((q,p),a) = \{\delta(q,a),\delta(p,a)\}$
-
