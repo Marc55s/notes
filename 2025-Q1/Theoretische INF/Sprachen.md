@@ -1,6 +1,4 @@
----tags:
-- Sprachen
----
+
 [[Sprachen exc]]
 - Natürliche gesprochene
 - Konstruierte Kunstsprachen
