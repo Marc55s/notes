@@ -9,8 +9,10 @@
     - "Höchstens abzählbar" - endliche Mengen enthalten
 
 # BSP
+
 $\Sigma = \{1...n|n\ \in \mathbb{N}\}$
 $L = \{w|(a,b)\ \in \Sigma\}$
+
 - \[1,1\] = 2
 - \[1,2\]\[2,1\] = 3
 - \[3,1\]\[2,2\]\[1,3\] = 4
