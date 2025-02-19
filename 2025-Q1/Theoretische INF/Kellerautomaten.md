@@ -10,5 +10,5 @@ PDA - Push down Automaton
 - prüft eine nicht reguläre Grammatik
 - Kontextsensitive nicht
 - kann nicht zählen --> kann nicht rechnen
-- Kelleralphabet = K = {(,)}
+- Kelleralphabet = K = {}
 
