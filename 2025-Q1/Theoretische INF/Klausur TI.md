@@ -21,6 +21,7 @@
 ## Grammatiken
 ### Definition
 - Chomsky Typen [[Grammatiken]]
+- Was ist eine Grammatik?
 ## Sprachen
 [[Sprachen]], [[Sprachen II]], [[Sprachen exc]]
 # Regex
