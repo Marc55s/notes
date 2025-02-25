@@ -7,8 +7,8 @@
 
 - Beschreiben Sie umgangsprachlich die durch folgende reguläre Ausdrücke bezichnenten Wortemengen über {a,b}. Entwerfen Sie jweilse einen endlichen Akzeptor
 für diese Sprachen.
-1. (aba)*
-2. (aa|b)*(a|bb)*
+1. (aba)* --> beliebig viele "aba"
+2. (aa|b)\*(a|bb)\*
 
 
 
