@@ -19,10 +19,10 @@ tags:
     - endliche Teilmenge von (N und T)*
 - S: Startsymbol {X}
 - T steht immer rechts vom NT:
-	- linksreguläre Grammatik A->Ba
+	- rechtsreguläre Grammatik A->Ba
 	- Worte wachsen nach  links
 - T steht immer links vom NT:
-	- rechtsreguläre Grammatik A -> aB
+	- linksreguläre Grammatik A -> aB
 	- Worte wachsen nach rechts
 - Eine reguläre Grammatik ist immer links oder rechts regulär
 [[Generator exc]]
