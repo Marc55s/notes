@@ -12,3 +12,4 @@ für diese Sprachen.
 
 
 
+Wie lauten Grammatik und Akzeptor der Sprache über X = {a,b}, bei der sämtliche Wörter mit a beginnen und mit b enden? Ist die Sprache regulär?
