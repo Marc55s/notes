@@ -58,5 +58,8 @@ for a in A:
 
 #### Journal/log  
 - Jedel mal, wenn eine Änderung stattfindet --> Änderungen Speichern + DB-Dump
-- Ist schneller als jedes mal auf die Festplatte zu schreiben
+- Journal updaten ist schneller als jedes mal auf die Festplatte zu schreiben
+- Journaleinträge können parallelisiert werden durch mehrere Platten --> Einträge auf diverse Platten aufteilen
+
+
 
