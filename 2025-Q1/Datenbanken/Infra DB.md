@@ -11,15 +11,16 @@
     - Nutzung: Primary key und Foreign key
 - OLTP = Online Transaction Processing
 	- Seitengröße, Caching, enthalten Zeilen der Tabelle
-	- Man sucht nach einem Primary key --> Laufzeit ist konstant mit O(1)
-    - Alle abfragen -> O(n)
+	- Man sucht nach einem Primary key --> Laufzeit ist konstant mit $\mathbb{O}(1)$
+    - Alle abfragen -> $\mathbb{O}(n)$
     - Abfragen optimieren durch Spaltenweise Speicherung statt Zeilenweise
 - OLAP = Online Analytical Processing
 
 ## Join implementierung
 - Wie kann JOIN smart implementiert werden?
 - Kartesiches Produkt: $A \times B$ für alle Verbindungen zwischen zwei Tabellen
-- nested loop join $0(n^{Tabellen})$:
+- nested loop joins $0(n^{Tabellen})$:
+- Mit 2 Tabellen kann man Indizes anlegen und sortieren (index lookup)--> Laufzeit noch in Ordnung
 - Ab 3 Tabellen mit mehr als 10.000 Einträgen wird die Laufzeit schlecht
 ```python
 A,B # Tabellen
@@ -28,6 +29,34 @@ for a in A:
     if a.x == b.y:
        ...
 ```
+- sort merge join: 
+    - sortieren, dann mergen
+    - Sortieren nach join Attribut
+    - $\mathbb{O} (n)$, wenn soritert
+    - merge sort wird verwendet
 
+## Performance beim Schreiben
+- Erinnerung: Warum eigentlich nicht eine Große Tabelle?
+    - Sortieren nach einem Wert gut alles andere schlecht
+    - Redundanz verhindern
+    - Flexible Datennutzung
+    - Anpassbar
+- Problem: Nach schreiben in Hauptspeicher sind Festplatte und Cache asynchron
+    - Geänderte Daten werden mit "Dirty" geflagged
+- Schreiben ist nur limitiert durch Schreiben in Hauptspeicher, deswegen 50.000 Inserts/s möglich
+- Wenn eine Seite aus dem Cache entfernt wird, **muss** auf die Festplatte geschrieben werden
+- Es wird geschrieben, wenn grade Ressourcen frei sind
+- Das Schreiben auf Hauptspeicher und Festplatte wird zeitlich entkoppelt
 
+## Backup - Wie funktioniert ein Backup?
+1. Zum Zeitpunkt t = 0 werden Daten kopiert
+2. Update: Daten werden irgendwie verändert
+3. Update: Daten werden irgendwie verändert
+
+### incremental Backup
+- Alle 15 minuten Änderung dokumentieren --> Änderungen Speichern + DB-Dump
+
+#### Journal/log  
+- Jedel mal, wenn eine Änderung stattfindet --> Änderungen Speichern + DB-Dump
+- Ist schneller als jedes mal auf die Festplatte zu schreiben
 

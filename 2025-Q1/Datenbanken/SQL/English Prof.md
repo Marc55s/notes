@@ -7,15 +7,15 @@ Import:
     mariadb -u root -p dbname < /dump.sql
 - SQL
 - Insert
-    ```
+    ```sql
     insert into [table_name] (col1, col2) values(val1, val2);
     ```
-- Update
-    ```
+- Update (Prozessabbildung)
+    ```sql
     update [table_name] set col1 = val1 where id = 1; 
     ```
 - Delete
-    ```
+    ```sql
     delete from [table_name] where id = 1;
     ```
 - Join
