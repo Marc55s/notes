@@ -1,0 +1,3 @@
+- Markdown cards
+- Grub Theme
+- Switch to Librewolf
