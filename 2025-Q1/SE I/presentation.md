@@ -1,62 +1,63 @@
-# KI-gestützter Test mit Perfecto Scriptless
-### Software Engineering – Testautomatisierung  
+# KI-gestütztes Testen mit Perfecto Scriptless
+### Effiziente Testautomatisierung ohne Code  
 
 ---
 
 ## Einführung  
-- **Software-Testing** ist entscheidend für Qualität und Zuverlässigkeit  
-- Klassische Testautomatisierung benötigt viel Wartung  
-- **KI-gestützte Tests** verbessern Effizienz und Stabilität  
+- Qualitätssicherung ist entscheidend für stabile Software  
+- Klassische Testautomatisierung erfordert viel Wartung  
+- **KI-gestützte Tests** reduzieren Aufwand und verbessern Stabilität  
+- **Perfecto Scriptless**: Automatisierte Tests ohne Programmierung  
 
 ---
 
 ## Herausforderungen klassischer Tests  
-- **Hoher Wartungsaufwand** für automatisierte Tests  
-- **Fehlgeschlagene Tests** wegen UI-Änderungen  
-- **Manuelle Tests** sind zeitaufwendig und fehleranfällig  
+- **Hoher Wartungsaufwand**: UI-Änderungen führen zu Testfehlern  
+- **Technische Hürden**: Automatisierung erfordert oft Programmierkenntnisse  
+- **Langsame Testzyklen**: Manuelle Tests verzögern Entwicklungsprozesse  
+- **Skalierungsprobleme**: Tests müssen auf verschiedenen Geräten und Browsern laufen  
 
 ---
 
-## Was ist Perfecto?  
-- **Cloud-basierte Testplattform mit KI** für Web & Mobile  
-- **Wichtige Funktionen:**  
-  - **Scriptless Testing** für **codefreie Automatisierung**  
-  - **Selbstheilende Tests** mit KI-Unterstützung  
-  - **Intelligente Analyse & Debugging**  
-  - **Cross-Browser & Real-Device-Testing**  
+## Was ist Perfecto Scriptless?  
+- **Codefreie Testautomatisierung** mit KI-Unterstützung  
+- **Visuelles Testdesign** statt kompliziertem Scripting  
+- **Selbstheilende Tests**: KI erkennt und korrigiert Fehler automatisch  
+- **Cloud-Plattform**: Tests laufen auf echten Geräten & Browsern  
 
 ---
 
-## Vorteile von KI in Perfecto  
-- **Keine Programmierkenntnisse nötig** für Testautomatisierung  
-- **Reduzierter Wartungsaufwand** durch **selbstheilende Tests**  
-- **Schnellere Fehlererkennung** mit KI-Analyse  
-- **Skalierbare Tests** für verschiedene Browser & Geräte  
+## Wie funktioniert Perfecto Scriptless?  
+1. **Testfälle visuell erstellen** – Drag-and-Drop statt Code schreiben  
+2. **KI-basierte Testausführung** – erkennt Layout-Änderungen und passt sich an  
+3. **Selbstheilung** – Fehlerhafte Tests werden automatisch repariert  
+4. **Intelligente Analyse** – Detaillierte Fehlerberichte mit KI-Unterstützung  
 
 ---
 
-## KI-gestützter Test mit Perfecto Scriptless  
-- **Testdesign ohne Code** – visuelle Erstellung statt Scripting  
-- **KI-gestützte Testausführung** – automatische Anpassung bei UI-Änderungen  
-- **Selbstheilende Automatisierung** – defekte Tests werden **automatisch repariert**  
-- **Intelligente Fehleranalyse** – schneller Debugging durch KI  
+## Vorteile von KI in der Testautomatisierung  
+- **Zeitersparnis**: Automatische Wartung reduziert manuelle Eingriffe  
+- **Mehr Stabilität**: KI verhindert Testabbrüche durch UI-Änderungen  
+- **Höhere Skalierbarkeit**: Tests laufen auf verschiedenen Plattformen ohne Anpassung  
+- **Einfache Nutzung**: Ideal für Teams ohne tiefgehendes Testautomatisierungswissen  
 
 ---
 
-## Anwendungsfälle & Praxisbeispiele  
-- **CI/CD-Integration** – Tests direkt in Entwicklungsprozesse einbinden  
-- **Visuelle UI-Tests** – KI erkennt visuelle Änderungen automatisch  
-- **Effiziente Testdurchführung** – weniger manuelle Anpassungen, schnelleres Testen  
+## Praxisbeispiele & Einsatzmöglichkeiten  
+- **CI/CD-Integration** – Automatische Tests in DevOps-Prozesse einbinden  
+- **Regressionstests** – KI erkennt Fehler nach Code-Änderungen zuverlässig  
+- **Mobile & Web-Testing** – Testen auf echten Geräten und in verschiedenen Browsern  
+- **End-to-End-Tests** – Ganzheitliche Überprüfung von Nutzerinteraktionen  
 
 ---
 
 ## Fazit  
-- **KI verbessert Testautomatisierung erheblich**  
-- **Perfecto Scriptless ermöglicht codefreie, stabile Tests**  
+- **KI optimiert Softwaretests und reduziert manuellen Aufwand**  
+- **Perfecto Scriptless ermöglicht einfache, skalierbare Testautomatisierung**  
 
 ---
 
 ## Quellen
-[https://www.perfecto.io/platform/ai-testing-tool]
 
+ [perfecto.io](https://www.perfecto.io/platform/ai-testing-tool)
 ---
