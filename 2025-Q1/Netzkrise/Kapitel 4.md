@@ -41,3 +41,14 @@ Elevation of Privilege | Berechtigungen erlangen | Autorisierung
 - public Schlüssel: öffentlich
 3. Digitales wird mit dem priv. Schlüssel der CA signiert
 
+## Security in Layers
+- Angriff auf jeder Layer (ISO-Modell) möglich
+- Die Kompromittierung einer tieferen Schicht zum Beispiel der Data Link Schicht (Layer 2) kann dazu führen, dass die Nutzdaten und Header der oberen Schichten gelesen und geändert werden können.
+
+## Sicherheitsmaßnahmen
+- Sichere Konfiguration von Netzwerkgeräten, DHCP-Spoofing, Dynamic ARP Inspection, IP Soruce Guard, ACL, ...
+- Sicherer Kommunikationskanal
+
+## VPN
+- Virtual: Softwarebasierenden Tunnel, welcher auf physikalische Öffentlichen Verbindungen aufbaut
+- Private: Übertragung erfolgt verschlüsselt und integritätsgesichert über die öffentlichen Verbindungen
