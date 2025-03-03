@@ -34,9 +34,10 @@ Elevation of Privilege | Berechtigungen erlangen | Autorisierung
 
 ## Digitales Zertifikat: x509v3
 - CA: Certificate Authority -> Vertrauenswürdig
+
 ### Ausstellen eines digitalen Zertifikats 
 1. Nachweis der Identität, per Personalausweis, Video-Ident
 2. Erstellen eines privaten Schlüssel geheim, pro Person, Device oder Orga
-* public Schlüssel: öffentlich
-
+- public Schlüssel: öffentlich
+3. Digitales wird mit dem priv. Schlüssel der CA signiert
 
