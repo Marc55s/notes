@@ -1,0 +1,10 @@
+- W-Fragen
+- 3-5 Seiten
+- Einleitung
+- Hinführung
+- Problemstellung
+- Methodik
+- Grobgliederung
+- Zeitplan
+- Zu erwartende Ergebnisse
+- Quellenverzeichnis

@@ -1,0 +1,50 @@
+- Big O Notation
+- Code kann Klassifiziert werden und eingeschätzt werden
+- $\Omicron-Notation$obere Schranke
+- $\Theta-Notation$reale Komplexität
+- $\Omega-Notation$untere Schranke
+- Performance in Big O>>>
+    - Konstant = $\Omicron(1) $
+    - Linear = $\Omicron(n)$
+    - Logarithmisch =$\Omicron(log(n))$
+    - Linear-Logarithmisch =$\Omicron(n\log(n))$
+    - Exponentiell = $\Omicron(a^n)$
+    - Fakultät = $\Omicron(n!)$
+- Bubblesort>>>
+    - Big $\Omicron(n^2)$
+    - Element wird mit jedem Verglichen und falls größer wird getauscht
+    - Das zu sortierende Element steigt wie eine Blase nach oben
+- Selectionsort>>>
+    - Big $\Omicron(n^2)$
+    - Kleinstes Element finden und tauschen mit dem Wert, mit dem wir die Vergleiche in diesem Durchlauf begonnen haben
+- Insertionsort>>>
+    - Big $\Omicron(n^2)$
+    - Nimmt sich ein Element und sortiert es in die bereits sortierte Menge ein
+    - Wie beim Kartensortieren, die man auf die Hand bekommt
+- Quicksort>>>
+    - WC $\Omicron(n^2)$
+    - AC $\Omicron(n\ log(n))$
+    - BC $\Omicron(n\ log(n))$
+    - Basiert auf Partitionierung
+    - Nimme die erste Karte aus dem Stapel
+    - Durchlaufe die restlichen Karten und bilde zwei Stapel
+        - Stapel 1 hat Karten die kleiner oder gleich der gezogenen Karte sind
+        - Stapel 2 hat Karten die größer der gezogenen Karte sind
+        - ![](https://remnote-user-data.s3.amazonaws.com/ikePP7Hi0vdMbhIlDtQe_S0mw2Q2QlbFC6PajDmgbzwEsnasMTqLRvK0jlItRETvIaadnHkKDEiUB96PR9U1l_htQpCAOyUsTGswCgXEOFqSDsfUzdbxjE4qcmQ0Cy9C.png)
+- Mergesort>>>
+    - WC $\Omicron(n\ log(n))$
+    - Speicherbedarf: $\Omicron(n)$
+    - Prinzip des Divide and Conquer
+    - Parallelisierung kann genutzt werden
+    - Implementierung per Rekursion möglich
+- AC/BC>>>
+    - Fähigkeit, ein Best-, Average- oder Worst-case Szenario zu erkennen: **Schlüsselkompetenz**
+    - Für die Auswahl des richtigen Algorithmus für eine Situation, sowie für die Geschwindigkeitsoptimierung existierender Algorithmen.
+    - Vorbereitet sein auf den worst case – aber Average cases sind doch wesentlich häufiger.
+- 
+- Sortierverfahren ohne Vergleiche>>>
+    - Coutingsort>>>
+        - Nicht vergleichendes Sortieren in Linearzeit
+        - Natürliche Zahlen begrenztes Intervall
+        - Zählt Häufigkeiten der Elemente
+        - Eine Hashtabelle Zählt wie oft eine Element vorkommt

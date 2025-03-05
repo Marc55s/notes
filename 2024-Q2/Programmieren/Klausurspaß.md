@@ -1,0 +1,5 @@
+- Referenztypen>>>
+    - ref kombiniert out und in
+    - in schränkt schreibezugriff ein
+    - out schränkt lesezugriffe ein
+- 

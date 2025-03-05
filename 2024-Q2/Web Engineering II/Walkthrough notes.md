@@ -1,0 +1,31 @@
+- Vergleich PHP - Nodejs
+- PHP funktionsweise ⇒ was macht der Server?
+- PHP key-value, include arten
+- Superglobals Post Get Server
+- Formulare Server mit php_self
+- 
+- Single Thread
+- Event loop ⇒ managing async functions
+- Template engine
+    - Anwendung erstellen welche über den Browser anzeigt
+    - Engine die Html erzeugt
+    - "ejs", weil syntax php relativ ähnlich
+- content negotiation
+    - Content abhängig von Eingangsdaten bzw. das Format
+    - Zum Beispiel Uhrzeit für Darkmode
+    - Express bietet Hilfskonstrukt
+- Middleware 
+    - Request
+    - Response
+    - Next ⇒ Nächster Handerl/Middleware
+- Mongodb
+    - Ein Document in Mongodb einfügen insert()
+    - Find document inside mongodb find()
+- REST
+    - Vorteil
+    - Stateless
+    - HTTP Methods + PATCH / PUT
+    - Idempotenz GET, PUT (PATCH)
+    - Url
+- Wie schreibt man ein Router?
+- Messenger Anwendungs Beispiel

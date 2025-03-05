@@ -1,0 +1,17 @@
+- Main focus auf subnetting und ip aufteilung
+- Wie löst man das problem von schleifen?→Spanning tree
+- Wie kann man ein Medium fair einteilen?→Reservierung des Medium, Wlan wird fair von jedem zur jeder nutzbar. Überall gibt es Zeiträume die abgewartet werden müssen (Wartezeiten). RTS/CTS oder ACK-Flags
+- 
+- Netz Aufgabe 
+- Hauptstandort
+    - Prod 10 System
+    - Verwaltung 100 Systeme
+- ZweitStandort
+    - Verwaltung 20 Systeme
+    - Prod 4 Systeme
+- DrittStandort
+    - Verwaltung 20 Systeme
+    - Prod 62 System 
+- Jeder Standort hat eine Router und sind untereinander vernetzt
+- 
+- 4 oder 5 Router nicht voll vermeshed

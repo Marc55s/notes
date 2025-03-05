@@ -1,0 +1,19 @@
+- ARP
+    - Broadcast ARP Request
+    - Unicast ARP Reply
+    - Jeder Knoten wertet den Reply aus und speichert diesen
+- DHCP
+    - Wo DHCP? DHCP Discover
+    - Hier IP DHCP Offer
+    - Darf haben? DHCP Request
+    - Nimm DHCP Ack
+- ICMP = Internet Control Message Protocol
+    - Ping
+- RIP
+    - Erstelle Routingtabellen
+    - Max 15 hops
+    - Kennt nicht alle Netze
+- OSPF Open Shortest Path First
+    - Jeder Router kennt Topologie des Netzes
+    - Bei Änderung werden Router informiert
+    - Kürzeste Wege werden neu berechnet

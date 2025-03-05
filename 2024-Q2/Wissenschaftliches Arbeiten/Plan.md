@@ -1,0 +1,13 @@
+- Thema
+- Social Media Marketing
+- Werbewirksamkeit
+- Wie können Datamining und Data-science verwendet werden, um Inhalte auf Social Media auf Popularität zu untersuchen?  
+    - Was ist mit der Forschungsfrage gemeint?
+        - Es geht darum die Methodik in der Arbeit zu untersuchen
+        - Wie analysiert man Daten
+        - Wie definiert man Popularität
+- Weitere Möglichkeit (Bahnmining)
+    - Metadaten nutzen zur Analyse von Nutzerverhalten (Schlafgewohnheiten)
+- Quellen suche
+- Word
+- 

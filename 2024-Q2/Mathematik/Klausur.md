@@ -1,0 +1,15 @@
+- Anwendung der Geometrischen Reihe
+- Quotienten Folgen: Bewertung ohne Beweise (kein Epsilon $\varepsilon$)
+- Beispiel Aufgaben
+    - Beispiel 5.17
+- 
+- Themen
+- Mengen und Zahlenmengen
+- Reelle Folgen und Reihen
+- Grenzwertegriff und Stetigkeit
+- Elementare Funktionen
+- Differentialrechnung
+- Integralrechnung
+- Anwendungen: Extremwerte, Sattelpunkte, Wendepunkte
+- Anwendungen: Satz von Hospital, Uneigentliche Integrale, Bogelänge, Rotationskörper
+- Anwendungen: Potenzreihen, Taylorreihe

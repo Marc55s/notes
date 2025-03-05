@@ -1,0 +1,30 @@
+- USB
+- Bluetooth
+- Hub
+- Bridges
+- Ethernet Frame
+- Switch
+    - Keine Collision bei ausreichen großem Speicher
+    - Switch führt MAC-Tabelle
+- Autonegation
+- MAC Adresse
+- Broadcast Storm
+- Verhindern von Schleifen
+    - Spanning Tree
+- Dezentrale Zugriffsverfahren
+- Tokepassing
+    - Derjenige mit dem Token darf senden, danach wird er weitergegeben
+- Aloha
+    - Solange senden bis akzeptiert, zwischendrin warten
+- CSMA /CD
+    - Nur bei Ethernet
+    - Abhören ⇒ Frei? ⇒ Senden / JAM Signal bei kollision
+- CSMA /CA
+    - DIFS + Random Zeit - Warten auf ACK flag
+    - Empfänger warten SIFS + Random Zeit und schickt ACK flag, wenn keine Kollision stattfindet
+- Reservierung per RTS / CTS
+- Wlan 802.11 Frame Struktur
+    - Control Frame (RTS CTS)
+    - NAV
+    - Adresse 1 bis 4→Adresse 1 : Zieladresse, Adresse 2 : Quelladresse, Adresse 3 : BSSID, und Adresse 4 : WDS (Wireless Distribution System) ⇒ Umso mehr umso weitreichender die Kommunikation  
+    - 
