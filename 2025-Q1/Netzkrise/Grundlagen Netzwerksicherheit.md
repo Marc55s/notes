@@ -25,7 +25,7 @@
 - Jedes IT-Asset überprüft die Authenzität und die Zugangsrechte und besitzt geeignete Schutzmaßnahmen
 - Methoden: Security-by-Design
     - Defense-in-Depth
-        - Mehrschichtige Sicherheitsstrategie
+        - Mehrschichtige Sicherheitsstrategie::
         1. Präventive Maßnahmen
             1. zeitnahes Patchen aller betroffenen IT-Assets
             2. Schwachstellenmanagement

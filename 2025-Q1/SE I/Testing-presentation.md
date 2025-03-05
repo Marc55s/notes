@@ -6,15 +6,9 @@ theme:
             center: "Testing mit KI"
             left: "Marc Schönig"
 ---
-## <span style="color:#27AE60;">Einführung</span>  
-- **<span style="color:#E67E22;">Qualitätssicherung</span>** ist entscheidend für stabile Software  
-- Klassische **<span style="color:#C0392B;">Testautomatisierung</span>** erfordert viel **Wartung**  
-- **<span style="color:#F39C12;">KI-gestützte Tests</span>** reduzieren Aufwand und verbessern **Stabilität**  
-- **<span style="color:#3498DB;">Perfecto Scriptless</span>**: Automatisierte Tests ohne Programmierung  
-
-<!-- end_slide -->
 
 ## <span style="color:#8E44AD;">Herausforderungen klassischer Tests</span>  
+- **<span style="color:#C0392B;">Testautomatisierung</span>** erfordert viel **Wartung**  
 - **<span style="color:#E74C3C;">Hoher Wartungsaufwand</span>**: UI-Änderungen führen zu Testfehlern  
 - **<span style="color:#D35400;">Technische Hürden</span>**: Automatisierung erfordert oft **Programmierkenntnisse**  
 - **<span style="color:#16A085;">Langsame Testzyklen</span>**: Manuelle Tests verzögern Entwicklungsprozesse  
