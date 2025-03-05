@@ -6,6 +6,8 @@ theme:
             center: "Testing mit KI"
             left: "Marc Schönig"
 ---
+## <span style="color:#8E443D;">KI-Testing mit Perfecto</span>  
+<!-- end_slide -->
 
 ## <span style="color:#8E44AD;">Herausforderungen klassischer Tests</span>  
 - **<span style="color:#C0392B;">Testautomatisierung</span>** erfordert viel **Wartung**  
@@ -20,6 +22,7 @@ theme:
 - **<span style="color:#F39C12;">Codefreie Testautomatisierung</span>** mit **KI-Unterstützung**  
 - **<span style="color:#8E44AD;">Visuelles Testdesign</span>** statt kompliziertem **Scripting**  
 - **<span style="color:#3498DB;">Cloud-Plattform</span>**: Tests laufen auf echten **Geräten & Browsern**  
+- **<span style="color:#3498DB;">Fokus auf mobile</span>**: Tests für Mobile Systeme**  
 
 <!-- end_slide -->
 
