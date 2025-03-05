@@ -34,7 +34,9 @@ for a in A:
     - Sortieren nach join Attribut
     - $\mathbb{O} (n)$, wenn soritert
     - merge sort wird verwendet
-
+- Fälle der Performance:
+1. trvial: Einzelne selects/Anfragen
+2. schwierige (nicht trivial): Reihe von Tabellen, welche groß sind, multiple Treffer, journal schreiben wenn es passt
 ## Performance beim Schreiben
 - Erinnerung: Warum eigentlich nicht eine Große Tabelle?
     - Sortieren nach einem Wert gut alles andere schlecht
