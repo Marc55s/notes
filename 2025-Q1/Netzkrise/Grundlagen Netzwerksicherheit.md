@@ -6,10 +6,10 @@
     2. Technische Maßnahmen
     3. Organisatorische Maßnahmen
 4. Schützen (CIAA)
-    1. Confidentiality
-    2. Integrity
-    3. Availability
-    4. Authenticity
+    1. Confidentiality: Vertraulichkeit der Daten
+    2. Integrity: Integrität der Daten und Systeme
+    3. Availability: Verfügbarkeit der Daten und Systeme
+    4. Authenticity: Rechenschaftspflich von Transaktionen 
 - Einschub Datenverarbeitung im Jahr 2000
     - User + PC
     - App und Daten

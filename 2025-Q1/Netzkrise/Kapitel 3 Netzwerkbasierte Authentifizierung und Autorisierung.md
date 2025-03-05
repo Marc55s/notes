@@ -100,7 +100,3 @@ Der Prozess der Authentifizierung erfolgt über dedizierte Authentifizierungspro
 ## RADIUS Attribute
 - RADIUS kapselt EAP-Pakete im sogenannten EAP-Message- Attribut
 - Type 79 EAP-TLS
-
-## RADIUS-Protocol
-
-# Authentifizierung
