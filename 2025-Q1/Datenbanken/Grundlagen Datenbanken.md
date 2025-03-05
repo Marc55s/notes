@@ -38,6 +38,8 @@
     - Locking mechanismus:
 	    - verhindert nicht zulässige Transaktionen --> muss wiederholt werden
 	    - Baum hierarchie wird mit einer Lock-Flag versehen, geht tiefer in die Baumstruktur wenn andere Anfrage gleichen Knoten benötigt
+    - two phase COMMIT
+        - Gewährleistet Konsistenz, reduziert aber die Verfügbarkeit
 
 - SQL-Teilsprachen
     - Data Definition Language
@@ -46,7 +48,6 @@
     - Data Query Language
     - Data Control Language
     - Transaction Control Language
-
 - Structured Query Language
 - Deklarative Datenbanksprache für relationale Datenbanken
 - Bietet Möglichkeiten zur Datenabfrage und -manipulation
