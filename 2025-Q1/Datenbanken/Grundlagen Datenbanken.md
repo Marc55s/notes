@@ -35,6 +35,10 @@
             - Mehrere Zugriffe sollen nicht intereferieren
         - Durability
             - dauerhafte Speicherung
+    - Locking mechanismus:
+	    - verhindert nicht zulässige Transaktionen --> muss wiederholt werden
+	    - Baum hierarchie wird mit einer Lock-Flag versehen, geht tiefer in die Baumstruktur wenn andere Anfrage gleichen Knoten benötigt
+
 - SQL-Teilsprachen
     - Data Definition Language
         - Definition eines DB-Schemas
