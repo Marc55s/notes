@@ -21,17 +21,18 @@
             - Starke Standardkonformität
         - PostgreSQL
             - Viele Funktionen
-- Transaktionen
+- Transaktionen ([[English Prof#^a521f5]])
     - Ausführung von mehreren Datenbankoperationen als logischen Einheit
     - Entweder erfolgreiche Ausführung aller Operationen (COMMIT)
-    - Oder Auführung keiner Operation (ROLLBACK)
+    - Oder Ausführung keiner Operation (ROLLBACK)
     - ACID
         - Atomicity
             - Alles oder nichts
+		- Consistency
+            - garantiert gültiger Zustand
         - Isolation
             - Unabhängigkeit
-        - Consistency
-            - garantiert gültiger Zustand
+            - Mehrere Zugriffe sollen nicht intereferieren
         - Durability
             - dauerhafte Speicherung
 - SQL-Teilsprachen

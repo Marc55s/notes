@@ -35,8 +35,10 @@ for a in A:
     - $\mathbb{O} (n)$, wenn soritert
     - merge sort wird verwendet
 - Fälle der Performance:
-1. trvial: Einzelne selects/Anfragen
-2. schwierige (nicht trivial): Reihe von Tabellen, welche groß sind, multiple Treffer, journal schreiben wenn es passt
+	1. trvial: Einzelne selects/Anfragen
+	2. schwierige (nicht trivial): Reihe von Tabellen, welche groß sind, multiple Treffer, journal schreiben wenn es passt
+
+- Referentielle Integrität: relationships müssen eingehalten werden, wenn verletzt würde dann folgt Fehler
 ## Performance beim Schreiben
 - Erinnerung: Warum eigentlich nicht eine Große Tabelle?
     - Sortieren nach einem Wert gut alles andere schlecht

@@ -103,10 +103,9 @@ Import:
         - unique
         - check
         - default
-- Transactions and ACID properties
+- Transactions and ACID properties ^a521f5
     - Transaction→A transaction is a unit of work that is performed against a database. It contains one or more SQL operations
-    - Is used to ensure data consistency
-    - to handle errors
+    - Is used to ensure data consistency to handle errors
     - Syntax
         ```sql
         start transaction;
