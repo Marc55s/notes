@@ -50,6 +50,7 @@ SecRule REQUEST_URI "@contains <script>", \
 - Ankommende Pakete werden überprüft
 ## Next Gen Firewalls
 - Eine Next Generation Firewall ist eine Erweiterung zur Stateful FW und besitzt weitere Fähigkeiten wie Intrusion Protection
+- Deep Package Inspection System
 ## Konfiguration
 - Interfaces anlegen mit Inside und Outside
 - Security Level inside auf 100 und outside auf 0
