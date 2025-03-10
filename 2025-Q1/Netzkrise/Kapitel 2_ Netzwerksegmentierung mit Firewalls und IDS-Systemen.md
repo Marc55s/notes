@@ -27,7 +27,7 @@
 ### Applikations -Gateways und DMZ
 - DMZ = Demilitarizes Zone ist eine Subnetzwerk, das als Pufferzone zwischen internen Netzwerk und externen Netzwerk
 ### Modsecurity
-- Analog zu klassichen Firewall-Systemen basiert auf Regelen
+- Analog zu klassichen Firewall-Systemen basiert auf Regeln
 - OWASP Foundation --> stellt einen Kernregelsatz
 - Wird festgelegt in Config files
 #### Logging
