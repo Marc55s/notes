@@ -103,7 +103,7 @@ $$False\ Positive (FP) = P(B|!A) * P(!A) $$
 $$True\ Positive = P(B|A) * P(A)$$
 ### Snort: Eine IDS/IPS-System
 - Snort gehört CISCO
-- Snort ist eine Opensource NIDS/NIPS-System
+- Snort ist ein Opensource NIDS/NIPS-System
 - Snort bringt eine vielzahl an vordefinierten Regeln zur Erkennung von Cyberattacken
 1. Paketerfassung:
 - liest Datenverkehr und speicher im pcap-Format

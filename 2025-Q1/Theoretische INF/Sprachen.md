@@ -11,7 +11,7 @@
     - Frachsprachen
 # Definitionen
 1. Alphabet $\Sigma$:
-    - Menge \lbrace \rbrace
+    - Menge $\lbrace \rbrace$
     - nicht leer
     - endlich
     - $\Sigma_{bool}$
@@ -37,7 +37,7 @@
         3.--> $\alpha^{*}$ Regex:
         4.--> nichts anderes aus $\alpha$ und $\beta$ ist eine Regex
     - $L_{\varnothing}=\lbrace\varnothing\rbrace$
-    - $L=\lbrace\ abc,bbbc\rbrace$ = \lbrace\ (a,b,c),(b,b,b,c)\rbrace$
+    - $L=\lbrace\ abc,bbbc\rbrace$ = $\lbrace\ (a,b,c),(b,b,b,c)\rbrace$
     - $L=\lbrace\ a^nb^m|n,m\in \mathbb{N} \geq \varnothing\rbrace$
     - $m=\varnothing,n=\varnothing\ a^0\ b^0=\varepsilon$
 

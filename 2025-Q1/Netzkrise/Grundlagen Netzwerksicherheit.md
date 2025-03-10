@@ -19,24 +19,26 @@
         - Antivirus Scanner
         - Secure Email Gateway
     - Für die permanente Überwachung der Schutzmaßnahmen wurden sogenannte IT-Leitstände eingeführt
-- Verbessertes Sicherheitskonzept: Zero trust
+
+# Verbessertes Sicherheitskonzept: Zero trust
 - Daten werden Internen als auch extern verarbeitet, die interne Sicherheit ist nicht mehr ausreichend
 - Jeder einzelner Aspekt des Netzes wird nochmals in eine Firewall gebunden
-- Jedes IT-Asset überprüft die Authenzität und die Zugangsrechte und besitzt geeignete Schutzmaßnahmen
-- Methoden: Security-by-Design
-    - Defense-in-Depth
-        - Mehrschichtige Sicherheitsstrategie::
-        1. Präventive Maßnahmen
-            1. zeitnahes Patchen aller betroffenen IT-Assets
-            2. Schwachstellenmanagement
-        2. Detektive Maßnahmen
-            1. Logging des Netzwerkverkehrs/ Prozessen
-            2. SIEM: kombinieren aller Logs durch SOC
-            3. IDS
-        3. Reaktive Maßnahmen
-            1. Firewall blockiert ungewollten Verkehr
-            2. Secure E-Mail Gateway (Spam)
-            3. IPS
+- Jedes IT-Asset überprüft die Authentizität und die Zugangsrechte und besitzt geeignete Schutzmaßnahmen
+
+# Methoden: Security-by-Design
+- Defense-in-Depth
+	-  Mehrschichtige Sicherheitsstrategie::
+	    1. Präventive Maßnahmen
+	            1. zeitnahes Patchen aller betroffenen IT-Assets
+	            2. Schwachstellenmanagement
+	    2. Detektive Maßnahmen
+	            1. Logging des Netzwerkverkehrs/ Prozessen
+	            2. SIEM: kombinieren aller Logs durch SOC
+	            3. IDS
+	    3. Reaktive Maßnahmen
+	            1. Firewall blockiert ungewollten Verkehr
+	            2. Secure E-Mail Gateway (Spam)
+	            3. IPS
     - Least Common Mechanism
         - Minimierung gemeinsamer Ressourcen
         - Vermeidung von gemeinsamen Zugriffen
@@ -50,7 +52,7 @@
         - Verwendung von Firewalls und Intrusion Detection Systemen
         - Zugriffsregeln in Netzwerkgeräten
 - Complete Mediation and AAA
-- Prinzip: Jeder Zugriff benötigt Access-Control
+	- Prinzip: Jeder Zugriff benötigt Access-Control
 - Jeder Dienst muss über AAA abgesichert sein
 - Access Control
     - Authentifizierung
