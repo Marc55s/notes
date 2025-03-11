@@ -101,19 +101,10 @@
         - Speichert Mac-Adreses und VLan
         - Überwachung von DHCP-Nachrichten zur Erkennung von Angriffen
     - DHCP-Starvation
-    - Aushungern der DHCP durch beliebig viele Anfragen mit unterschiedlichen MAC-Adressen
+	    - Aushungern der DHCP durch beliebig viele Anfragen mit unterschiedlichen MAC-Adressen
 - ARP-Spoofing, ARP-Poisoning
-    - ARP-Request
-        - Ein Computer benötigt die MAC-Adresse eines anderen Computers, um Daten zu senden. Er sendet einen ARP-Request ins Netzwerk (ein Broadcast), um die MAC-Adresse zur IP-Adresse zu erfragen.
-    - ARP-Reply
-        - Der Computer, der die IP-Adresse hat, antwortet mit einem ARP-Reply, das seine MAC-Adresse enthält.
-    - Manipulation
-        - Ein Angreifer kann an dieser Stelle gefälschte ARP-Reply-Nachrichten senden, die die IP-Adresse eines Zielcomputers (z.B. des Gateways) mit der MAC-Adresse des Angreifers verknüpfen.
-    - Umleitung des Verkehrs
-        - Dadurch wird der gesamte Datenverkehr, der für diesen Zielcomputer gedacht ist, an den Angreifer gesendet. Der Angreifer kann den Verkehr dann analysieren, modifizieren oder an das tatsächliche Ziel weiterleiten.
-    - Man in the Middle Attack
-    - ARP Nachrichten werden mit gespooften MAC-Adressen, so dass die ARP-Caches 
-    - Kann durch DHCP-Snooping verhindert werden
+	- Schickt ARP-Nachrichten mit gespooften MAC-Adressen
+	- 
 - MAC-Address-Flooding
     - Switch
         - Forwarding Tabelle mit [MAC-Adresse | Interface | Life Time]
