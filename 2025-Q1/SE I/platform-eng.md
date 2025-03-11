@@ -19,6 +19,7 @@ Einleitung & Grundlagen
 - Ziel: **<span style="color: #66ff66;">Self-Service-Plattformen</span>** für Entwicklerteams.  
   - 🔄 Reduziert manuelle Arbeit.  
   - 🚀 Beschleunigt den Entwicklungszyklus.  
+  - 🔧 Ermöglicht standardisierte Workflows.  
 <!-- end_slide -->  
 
 Warum Platform Engineering?
@@ -43,9 +44,20 @@ Vorteile für Entwickler & Unternehmen
 - **<span style="color: #66ff66;">Entwickler</span>:**  
   - 🎯 **<span style="color: #66ff66;">Weniger Ablenkung</span>** durch Infrastrukturfragen.  
   - 🚀 **<span style="color: #66ff66;">Schnellere Deployments & bessere DX</span>**.  
+  - ⚙️ **<span style="color: #66ff66;">Zentralisierte Tooling-Landschaft</span>**.  
 - **<span style="color: #66ff66;">Unternehmen</span>:**  
   - 💰 **<span style="color: #66ff66;">Kostenreduktion</span>** durch Automatisierung.  
   - 📈 **<span style="color: #66ff66;">Bessere Skalierbarkeit & Zuverlässigkeit</span>**.  
+  - 🔄 **<span style="color: #66ff66;">Bessere Wartbarkeit & Konsistenz</span>**.  
+<!-- end_slide -->  
+
+Best Practices für Platform Engineering
+===  
+- **<span style="color: #66ff66;">Plattform als Produkt</span>** denken – Fokus auf Nutzerfreundlichkeit.  
+- **<span style="color: #66ff66;">APIs & Automatisierung</span>** für nahtlose Workflows nutzen.  
+- **<span style="color: #66ff66;">Security by Design</span>**: Compliance & Sicherheit in die Plattform integrieren.  
+- **<span style="color: #66ff66;">Regelmäßiges Feedback</span>** von Entwicklern einholen & umsetzen.  
+- **<span style="color: #66ff66;">Inner-Source-Prinzip</span>** nutzen: Kollaboration innerhalb des Unternehmens fördern.  
 <!-- end_slide -->  
 
 Schlussfolgerung
@@ -55,6 +67,12 @@ Schlussfolgerung
 - **Erfolgskriterien:** **<span style="color: #66ff66;">Automatisierung</span>**, **<span style="color: #66ff66;">Self-Service</span>**, **<span style="color: #66ff66;">Developer Experience</span>**.  
   - ✅ **<span style="color: #66ff66;">Effizientere Softwarebereitstellung</span>**.  
   - ✅ **<span style="color: #66ff66;">Höhere Produktivität & Zufriedenheit der Entwickler</span>**.  
+<!-- end_slide -->  
+
+Quellen
+===  
+- [Was ist Platform Engineering? - Gartner](https://www.gartner.de/de/artikel/was-ist-platform-engineering)  
+- [Platform Engineering vs. DevOps - Thoughtworks](https://www.thoughtworks.com/de/insights/blog/platform-engineering-vs-devops)  
 <!-- end_slide -->
 
-
+---
