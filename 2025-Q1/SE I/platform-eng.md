@@ -43,7 +43,7 @@ Vorteile für Entwickler & Unternehmen
 ===  
 - **<span style="color: #66ff66;">Entwickler</span>:**  
   - 🎯 **<span style="color: #66ff66;">Weniger Ablenkung</span>** durch Infrastrukturfragen.  
-  - 🚀 **<span style="color: #66ff66;">Schnellere Deployments & bessere DX</span>**.  
+  - 🚀 **<span style="color: #66ff66;">Schnellere Deployments</span>**.  
   - ⚙️ **<span style="color: #66ff66;">Zentralisierte Tooling-Landschaft</span>**.  
 - **<span style="color: #66ff66;">Unternehmen</span>:**  
   - 💰 **<span style="color: #66ff66;">Kostenreduktion</span>** durch Automatisierung.  
