@@ -29,5 +29,13 @@ void setup(){
 
 ```
 - Genauigkeit von Fließkommazahlen bei Rechnungen
+---
+
 # Fortgesetzte Verwirrung 
-- Zelluläre Automaten
+## Zelluläre Automaten
+- Können natürliche Differenzengleichungen beschreiben
+- Erste Idee: Ein einfache zellurärer Automat welcher 1-Dimensional ist
+- Die Regeln für das bilden einer Generation kann von mehreren vorherigen
+Generation abhängen $x^n = f(x^{n-1},x^{n-2},...)$
+- In Game of Life hängen die Zustände vom Nachbarn ab und nur von der
+vorherigen Generation
