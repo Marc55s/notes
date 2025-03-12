@@ -63,7 +63,6 @@ Best Practices für Platform Engineering
 Schlussfolgerung
 ===  
 - **<span style="color: #66ff66;">Platform Engineering ist die Zukunft von DevOps.</span>**  
-- **Ziel:** Eine **<span style="color: #66ff66;">Plattform als Produkt</span>** für Entwicklerteams.  
 - **Erfolgskriterien:** **<span style="color: #66ff66;">Automatisierung</span>**, **<span style="color: #66ff66;">Self-Service</span>**, **<span style="color: #66ff66;">Developer Experience</span>**.  
   - ✅ **<span style="color: #66ff66;">Effizientere Softwarebereitstellung</span>**.  
   - ✅ **<span style="color: #66ff66;">Höhere Produktivität & Zufriedenheit der Entwickler</span>**.  
