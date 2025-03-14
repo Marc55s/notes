@@ -10,7 +10,6 @@
 - Index = sortierte/optimierte Version der Daten als Kopie 
     - Nutzung: Primary key und Foreign key
 
-
 ## Functional Partioning
 - Funktionelle Aufteilung der Daten für Skalierbarkeit
 - Gut für Microservices
@@ -22,6 +21,18 @@
 - Shard 1 kann von der Tabelle die Id 1-1000 und Shard 2 Id 1001-2000
 - Zunächst Skalierung der Shards auf einer Maschine
 - Anzahl der Shards sollte viele Teiler haben $2^x$, wegen Hashing der Modulo operation
+
+## CAP-Theorem
+- CP Systems (Consistency + Partition Tolerance):
+    - Zookeeper, HBase
+    - Prioritizes data correctness over availability
+
+- AP Systems (Availability + Partition Tolerance):
+    - DynamoDB, Cassandra
+    - Prioritizes uptime and availability, allowing temporary inconsistencies
+
+- CA Systems (Consistency + Availability):
+    - Traditional relational databases (SQL) when running on a single node (but loses partition tolerance in distributed mode)
 
 ## Amazon Dynamo
 1. Vorteile
