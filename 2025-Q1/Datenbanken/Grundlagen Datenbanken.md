@@ -32,7 +32,7 @@
             - garantiert gültiger Zustand
         - Isolation
             - Unabhängigkeit
-            - Mehrere Zugriffe sollen nicht intereferieren
+            - Mehrere Zugriffe sollen nicht interferieren
         - Durability
             - dauerhafte Speicherung
     - Locking mechanismus:
