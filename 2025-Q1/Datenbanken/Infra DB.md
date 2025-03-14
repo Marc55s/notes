@@ -13,6 +13,8 @@
 
 ## Functional Partioning
 - Funktionelle Aufteilung der Daten für Skalierbarkeit
+- Gut für Microservices
+- Schlecht für Joing und Queries über mehrere funktionale aufgeteilte DB-Bereiche (User, Resources, Products)
 ---
 
 
