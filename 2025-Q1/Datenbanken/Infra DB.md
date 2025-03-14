@@ -6,12 +6,16 @@
     - Um sequentielle Zugriffe zu beschleunigen, sollten diese hintereinander im Speicher liegen, wenn nicht muss sicher Plattenkopf bewegen --> längere Ladezeit
     - Besitzen Feste Größe: 16KB, 32KB, ...
     - Liegen in den Blättern eines B-Baums
-    - Pages verweisen ge
-
----
-
+    - Pages verweisen Sequentiell aufeinander für schnelle Zugriffe
 - Index = sortierte/optimierte Version der Daten als Kopie 
     - Nutzung: Primary key und Foreign key
+
+
+## Functional Partioning
+- Funktionelle Aufteilung der Daten für Skalierbarkeit
+---
+
+
 - OLTP = Online Transaction Processing
 	- Seitengröße, Caching, enthalten Zeilen der Tabelle
 	- Man sucht nach einem Primary key --> Laufzeit ist konstant mit $\mathbb{O}(1)$
@@ -21,7 +25,7 @@
 	- Warehouse
 	- Optimierung der Indizes
 	- Redundanz für Performance
-
+---
 ## Join implementierung
 - Wie kann JOIN smart implementiert werden?
 - Kartesiches Produkt: $A \times B$ für alle Verbindungen zwischen zwei Tabellen
