@@ -22,6 +22,17 @@
 - Shard 1 kann von der Tabelle die Id 1-1000 und Shard 2 Id 1001-2000
 - Zunächst Skalierung der Shards auf einer Maschine
 - Anzahl der Shards sollte viele Teiler haben $2^x$, wegen Hashing der Modulo operation
+
+## Amazon Dynamo
+1. Vorteile
+    - High Availability
+    - Replikation
+    - Partitionierung
+    - Skalierbar ohne Ende
+2. Nachteile
+    - Integrität problematisch
+    - No Complex Queries
+
 ---
 
 
