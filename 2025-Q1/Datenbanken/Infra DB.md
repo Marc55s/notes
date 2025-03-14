@@ -15,6 +15,9 @@
     - Alle abfragen -> $\mathbb{O}(n)$
     - Abfragen optimieren durch Spaltenweise Speicherung statt Zeilenweise
 - OLAP = Online Analytical Processing
+	- Warehouse
+	- Optimierung der Indizes
+	- Redundanz für Performance
 
 ## Join implementierung
 - Wie kann JOIN smart implementiert werden?
@@ -55,7 +58,6 @@ for a in A:
 ## Backup - Wie funktioniert ein Backup?
 1. Zum Zeitpunkt t = 0 werden Daten kopiert
 2. Update: Daten werden irgendwie verändert
-3. Update: Daten werden irgendwie verändert
 
 ### incremental Backup
 - Alle 15 minuten Änderung dokumentieren --> Änderungen Speichern + DB-Dump
@@ -64,6 +66,9 @@ for a in A:
 - Jedel mal, wenn eine Änderung stattfindet --> Änderungen Speichern + DB-Dump
 - Journal updaten ist schneller als jedes mal auf die Festplatte zu schreiben
 - Journaleinträge können parallelisiert werden durch mehrere Platten --> Einträge auf diverse Platten aufteilen
-
+## Two Phase commit
+1. jede Instanz bekommt eine prepare to commit message
+2. Instanz schickt Response oder wenn es nicht möglich ist eine Rollback
+3. Man kann die Response nicht mehr zurücknehmen
 
 
