@@ -14,7 +14,14 @@
 ## Functional Partioning
 - Funktionelle Aufteilung der Daten für Skalierbarkeit
 - Gut für Microservices
-- Schlecht für Joing und Queries über mehrere funktionale aufgeteilte DB-Bereiche (User, Resources, Products)
+- Schlecht für Joins und Queries über mehrere funktionale aufgeteilte DB-Bereiche (User, Resources, Products)
+- Seperate Schemas/DBs
+
+## Sharding
+- Daten werden aufgeteilt nach Inhalt oder logischen Gruppen
+- Shard 1 kann von der Tabelle die Id 1-1000 und Shard 2 Id 1001-2000
+- Zunächst Skalierung der Shards auf einer Maschine
+- Anzahl der Shards sollte viele Teiler haben $2^x$, wegen Hashing der Modulo operation
 ---
 
 
