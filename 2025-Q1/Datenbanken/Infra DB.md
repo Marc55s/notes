@@ -4,6 +4,9 @@
 - Datenbankenseiten
 	- besteht aus einem Header, den eigentlichen Daten und einer Reserve, wenn die DB-Seite voll ist, müssen die Daten auf die nächste verschoben werde --> schlecht, da aufwendig
     - Um sequentielle Zugriffe zu beschleunigen, sollten diese hintereinander im Speicher liegen, wenn nicht muss sicher Plattenkopf bewegen --> längere Ladezeit
+    - Besitzen Feste Größe: 16KB, 32KB, ...
+    - Liegen in den Blättern eines B-Baums
+    - Pages verweisen ge
 
 ---
 
