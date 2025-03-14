@@ -80,6 +80,7 @@ for a in A:
 	2. schwierige (nicht trivial): Reihe von Tabellen, welche groß sind, multiple Treffer, journal schreiben wenn es passt
 
 - Referentielle Integrität: relationships müssen eingehalten werden, wenn verletzt würde dann folgt Fehler
+
 ## Performance beim Schreiben
 - Erinnerung: Warum eigentlich nicht eine Große Tabelle?
     - Sortieren nach einem Wert gut alles andere schlecht
@@ -100,10 +101,12 @@ for a in A:
 ### incremental Backup
 - Alle 15 minuten Änderung dokumentieren --> Änderungen Speichern + DB-Dump
 
-#### Journal/log  
-- Jedel mal, wenn eine Änderung stattfindet --> Änderungen Speichern + DB-Dump
-- Journal updaten ist schneller als jedes mal auf die Festplatte zu schreiben
+### Continuous incremental Journal/log  
+- Wiederherstellung mit Journaleinträgen + DB-Dump
+- Jedes mal, wenn eine Änderung stattfindet --> Änderungen Speichern / Journal schreiben
+- Journal updaten ist schneller, als jedes mal eine Page auf die Festplatte zu schreiben
 - Journaleinträge können parallelisiert werden durch mehrere Platten --> Einträge auf diverse Platten aufteilen
+
 ## Two Phase commit
 1. jede Instanz bekommt eine prepare to commit message
 2. Instanz schickt Response oder wenn es nicht möglich ist eine Rollback
