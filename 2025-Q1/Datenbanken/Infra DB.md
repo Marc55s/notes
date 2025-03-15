@@ -45,8 +45,6 @@
     - No Complex Queries
 
 ---
-
-
 - OLTP = Online Transaction Processing
 	- Seitengröße, Caching, enthalten Zeilen der Tabelle
 	- Man sucht nach einem Primary key --> Laufzeit ist konstant mit $\mathbb{O}(1)$
@@ -57,6 +55,7 @@
 	- Optimierung der Indizes
 	- Redundanz für Performance
 ---
+
 ## Join implementierung
 - Wie kann JOIN smart implementiert werden?
 - Kartesiches Produkt: $A \times B$ für alle Verbindungen zwischen zwei Tabellen
