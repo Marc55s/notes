@@ -32,7 +32,7 @@
             - garantiert gültiger Zustand
         - Isolation
             - Unabhängigkeit
-            - Mehrere Zugriffe sollen nicht intereferieren
+            - Mehrere Zugriffe sollen nicht interferieren
         - Durability
             - dauerhafte Speicherung
     - Locking mechanismus:
@@ -76,3 +76,18 @@
         - Verwendet für MySQL-Datenbanken
         - Bietet hohe Leistung und Skalierbarkeit
         - Keine Fremdschlüssel
+
+- [ ] ## Überblick über die Normalformen
+1. Normalform:
+    - Alle Attributwerte sind atomar (nicht weiter aufteilbar)
+    - D.h.: Jede Spalte enthält nur einen Wert pro Zelle
+2. Normalform:
+    - Erfüllt die erste NF UND
+    - Alle Nicht-Schlüssel-Attribute müssen vollständig vom
+    Primärschlüssel abhängig sein
+3. Normalform:
+    - Erfüllt die erste und zweite NF UND
+    - Es gibt keine transitiven Abhängigkeiten, d.h.
+    Nicht-Schlüsselattribute dürfen nicht von anderen
+    Nicht-Schlüsselattributen abhängen
+

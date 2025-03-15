@@ -82,7 +82,7 @@ Import:
     - Normalization is the process of structuring a relational databae in accordance with a series of normal forms
     - First normal Form(1NF)
         - Rule
-            - Each column holds atomix values
+            - Each column holds atomic values
         - Key criteria
             - No mulit-valued attributes Each column contains a single value
     - Second normal Form(2NF)

@@ -23,7 +23,7 @@
 - ACL-Listen werden einem Interface zugeordnet. Bei der Zuordnung wird definiert, ob die Regel auf eingehenden oder ausgehenden Datenverkehr angewandt werden sollte
 
 ### ACLs und Bitmasken
-- Bitmasken werdne in ACls verwedent, sodass festegelegt werden kann welche Adresse von ACL betroffen sind
+- Bitmasken werden in ACls verwedent, sodass festegelegt werden kann welche Adresse von ACL betroffen sind
 - Bitmaske→Inverte Subnetzmaske 1 werden zu 0 und umgekehrt
 - Allgemeine Regeln für ACLs
     - "implicit Deny"-Prinzip ‒> Alles was nicht erlaubt ist, ist verboten
