@@ -85,6 +85,7 @@ left join
     )
     as fi 
 on fi.fruit_id = fruits.id;
+
 -- opt 2
 select fruits.id, name, count(fi.id) as images_count
 from fruits 
@@ -184,3 +185,11 @@ create table accounts(
 
 insert into accounts (name,balance) values ("Alice", 500), ("Bob", 300);
 ~~~~
+
+# Commands
+- Docker copy
+```bash
+    docker cp file container:/file
+```
+- Import:
+	- mariadb -u root -p dbname < /dump.sql

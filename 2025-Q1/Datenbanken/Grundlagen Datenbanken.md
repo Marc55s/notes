@@ -21,7 +21,7 @@
             - Starke Standardkonformität
         - PostgreSQL
             - Viele Funktionen
-- Transaktionen ([[English Prof#^a521f5]])
+- Transaktionen ([[SQL - Englisch Prof#^a521f5]])
     - Ausführung von mehreren Datenbankoperationen als logischen Einheit
     - Entweder erfolgreiche Ausführung aller Operationen (COMMIT)
     - Oder Ausführung keiner Operation (ROLLBACK)

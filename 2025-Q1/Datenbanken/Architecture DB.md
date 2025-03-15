@@ -111,5 +111,3 @@ for a in A:
 2. Instanz schickt Response oder wenn es nicht möglich ist eine Rollback
 3. Man kann die Response nicht mehr zurücknehmen
 - Konsistenz ist gewährleistet, aber Verfügbarkeit ist niedrig, durch die Locks der Transkation
-
-
