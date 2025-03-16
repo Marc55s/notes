@@ -83,8 +83,8 @@
     - D.h.: Jede Spalte enthält nur einen Wert pro Zelle
 2. Normalform:
     - Erfüllt die erste NF UND
-    - Alle Nicht-Schlüssel-Attribute müssen vollständig vom
-    Primärschlüssel abhängig sein
+    - Alle Nicht-Schlüssel-Attribute müssen vom
+    Primärschlüssel voll funktional abhängig sein
 3. Normalform:
     - Erfüllt die erste und zweite NF UND
     - Es gibt keine transitiven Abhängigkeiten, d.h.
