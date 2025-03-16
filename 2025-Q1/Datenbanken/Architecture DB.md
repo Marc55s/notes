@@ -10,7 +10,7 @@
 - Index = sortierte/optimierte Version der Daten als Kopie 
     - Nutzung: Primary key und Foreign key
 
-## Functional Partioning
+## Functional Partitioning
 - Funktionelle Aufteilung der Daten für Skalierbarkeit
 - Gut für Microservices
 - Schlecht für Joins und Queries über mehrere funktionale aufgeteilte DB-Bereiche (User, Resources, Products)
