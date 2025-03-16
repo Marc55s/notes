@@ -77,7 +77,7 @@
         - Bietet hohe Leistung und Skalierbarkeit
         - Keine Fremdschlüssel
 
-- [ ] ## Überblick über die Normalformen
+## Überblick über die Normalformen
 1. Normalform:
     - Alle Attributwerte sind atomar (nicht weiter aufteilbar)
     - D.h.: Jede Spalte enthält nur einen Wert pro Zelle
