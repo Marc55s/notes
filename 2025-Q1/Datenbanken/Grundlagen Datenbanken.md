@@ -60,7 +60,7 @@
     - Gleitkomma, Festkomma
     - Zeichenketten
     - Text
-    - Datums und Zeitangaben
+    - Datum und Zeitangaben
 - Speicher-Engines
     - Unterschiedliche Typen
     - InnoDB
