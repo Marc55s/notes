@@ -97,7 +97,7 @@ for a in A:
 1. Zum Zeitpunkt t = 0 werden Daten kopiert
 2. Update: Daten werden irgendwie verändert
 
-### incremental Backup
+### Incremental Backup
 - Alle 15 minuten Änderung dokumentieren --> Änderungen Speichern + DB-Dump
 
 ### Continuous incremental Journal/log  
