@@ -1,6 +1,6 @@
 - Aufgabe 1
 - Verbindungskosten = 1
-- Verbindungen>>>
+- Verbindungen
     - E - B
     - E - Z
     - E - G
@@ -74,7 +74,7 @@
 - 11, 4, 21, 29, 6
 - h(x) = (x * 7) mod 5
 - h(11) = 2, h(4) = 3, h(21) = 2, h(29) = 3, h(6)= 2
-- Hashtabelle>>>
+- Hashtabelle
     - 0: 29
     - 1:6
     - 2:11
@@ -86,7 +86,7 @@
 - Replace(2,N)
 - Replace(4,I)
 - Insert(5,E)
-- Laufzeit>>>
+- Laufzeit
     - O(3^n)
 - c) Was misst die Editierdistanz?
 - Die Anzahl an Operationen um Wort x in das Wort y zu transformieren

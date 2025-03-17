@@ -2,19 +2,19 @@
 - Layer 1,2,3,...
 - 
 - Layer in der Übersicht
-- Layer 1 (Physikalisch / Bitübertragung)>>>
+- Layer 1 (Physikalisch / Bitübertragung)
     - Physical Layer
     - Übertragungseinheit = Bits, Übertragung von Informationsbits
     - Definiert Steckverbindung
     - Umwandlung von Bits in elektrische Signale
     - Synchronisation auf Bit-Ebene
     - Ein Netzwerkt-Knote kann mehrere verschieden physikalische Schichte verwenden
-- Layer 2 (Datenverbindung / Sicherung)>>>
+- Layer 2 (Datenverbindung / Sicherung)
     - Übertragungseinheit=Frame, Übertragung von Datenpaketen
     - Verantwortlich für Prüfung von Problemen wie z. B. Kollision oder Datenverstümmelung
     - Koordination des gemeinsamen Mediums(Kollisionsdomäne)
     - Adressierung der (durch das gemeinsame Medium) erreichbaren Netzwerk-Knoten
-- Layer 3 (Netzwerk / Vermittlung)>>>
+- Layer 3 (Netzwerk / Vermittlung)
     - Ermöglicht die Kommunikation von beliebigen Systemen
     - Es werden Pfade von einem System zum anderen über das Netzwerkt gesucht
     - Daten die **nicht** für das eigene System bestimmt sind werden weitergereicht
@@ -26,9 +26,9 @@
 - Fragen
     - Blockiert das STP das Netz, können in der Zeit des Aufbaus Daten übertragen werden? ja 
     - Was ist relevant STP oder RSTP? Von welchem Ablauf lernen etc.? stp
-    - CSMA/CA Kollisions Diagramm, warum wartet Sender(zweites delta t_x)?>>>
+    - CSMA/CA Kollisions Diagramm, warum wartet Sender(zweites delta t_x)?
         - ![](https://remnote-user-data.s3.amazonaws.com/vyAfzelfM3gSs5YgBcAEFkzOqsYFq21yu3A6gKeExcqvT53CTr4iJPRUOnHyL55753mnAnVgsgD-Iy5wsqAsj9v1eORH_VcgsZi6NlfppQ5JyuApYwzhnXANpeJ74FpQ.png)
         - ![](https://remnote-user-data.s3.amazonaws.com/7BJWjWNcQh25sl439FP6RLfsRzeGpl-UDrHJ7p7w_bS9Y4EcI9E9sdwMf5shQBWaMb2ohb8d3U2D5INIMXNEP3OUT_ZSD8790ZGW8pB8b6zQAqBwXpad4_JLnvxQZSAI.png)
-    - Was macht ein Network allocation vector (nav)?>>>
+    - Was macht ein Network allocation vector (nav)?
         - Er lässt die anderen Stationen wissen wie lange der Kanal belegt ist. So können Kollisionen vermieden werden
 - 

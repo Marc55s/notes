@@ -1,15 +1,15 @@
 - 
-- Hashmaps>>>
+- Hashmaps
     - Kollisionsverhinderung (offenes/geschossenes hashing)
         - Lineare Sondierung→Nächsten freien Index nutzen
         - Chaining→Die Elemente werden unter dem gleichen Index in einer Liste gespeichert
 - Stacks und Queues
-- Heaps>>>
+- Heaps
     - Der Wert jeden Knotens muss größer sein als die Werte seiner Kinder (Max-Heap) oder jeder Wert kleiner(Min-Heap)
-    - Heap-Vollständigkeit>>>
+    - Heap-Vollständigkeit
         - Ein Baum ist heap-vollständig, wenn beim Lesen der Knoten einer Ebene von links nach rechts alle Knoten
         - vorhanden sind (Ausnahmen sind nur auf der untersten Ebene bei den letzten Elementen erlaubt).
-- Minimal Spanning Tree>>>
+- Minimal Spanning Tree
     - Ein Spannbaum eines kantengewichteten Graphen heißt minimal, wenn in demselben Graphen kein anderer
     - Spannbaum mit geringerem Gewicht existiert.
 - Huffman Kodierung

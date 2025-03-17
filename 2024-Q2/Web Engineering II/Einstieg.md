@@ -2,13 +2,13 @@
 - Mit Syntax schreiben von PHP und Nodejs
 - 
 - PHP  vs. Nodejs→
-    - PHP>>>
+    - PHP
         - Dynamische Webseite
         - HTML enthält Code
         - Weit verbreitet
         - Interpreter auf Server notwendig
         - CMS(Wordpress,...)
-    - Nodejs>>>
+    - Nodejs
         - JavaScript runtime environment  
         - Event-driven architecture  
         - Package management with npm  
@@ -16,13 +16,13 @@
         - Used for server-side development  
         - Popular for building APIs and web applications
 - 
-- PHP>>>
+- PHP
     - DB anbindung ist einfach
     - Viele Frameworks für PHP
     - Formulare
     - Session Handling
     - Nutzerinteraktion
-    - Syntax>>>
+    - Syntax
         - In HTML integriert
         - Kann an jeder Stelle einer HTML Seite einfügt werden
         - Spezielle Tags werden durch den PHP Interpreter zu Text gewandelt

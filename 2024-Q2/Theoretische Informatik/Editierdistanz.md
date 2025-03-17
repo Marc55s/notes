@@ -1,19 +1,19 @@
-- Schreibweise>>>
+- Schreibweise
     - ED(x,y) 
-    - Zulässige Operationen>>>
+    - Zulässige Operationen
         - Insert(Index, Character)
         - Delete(Index)
         - Replace(Index, Character)
-    - ED(x,y)>>>
+    - ED(x,y)
         - Beschreibt die Anzahl der [Zulässige Operationen](Editierdistanz/Schreibweise/Zulässige Operationen.md) die benötigt werden um das Wort x in das Wort y zu transformieren
     - $\varepsilon$beschreibt das leere Wort
-- Regeln>>>
+- Regeln
     - ED(x,y) = ED(y,x)
     - ED(x,$\varepsilon$) = |x|
     - ED(x,y) ≥ abs(|x| - |y|)
     - ED(x,y) $\leq$max(|x|, |y|)
     - ED(x,y) $\leq$ED(x[1:n-1],y[1:m-1]) +1 , n = |x|, m = |y|
-- Monotonie>>>
+- Monotonie
     - Es wird in aufsteigender Position geändert
     - Der Änderungsindex ist immer größer oder gleich des zuletzt bearbeiteten
     - **Monoton geht immer!** 

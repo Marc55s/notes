@@ -14,7 +14,7 @@
 
   
 - Konvergenzkriterien für Reihen
-- ^^Majorantenkriterium^^>>>
+# Majorantenkriterium
     - Es sei
     - 
 
@@ -30,7 +30,7 @@
     - eine konvergente Reihe mit $b_i \geq 0 \ für \ alle \ i.$
     - Gilt dann $|a_i| \leq b_i$für alle i, konvergiert die Reihe $\sum_{i=0}^{\infty}a_i$absolut.
     - 
-- ^^**Quotientenkriterium**^^^^ ^^>>>
+# **Quotientenkriterium**#  
     - Es sei eine Reihe
     - 
 
@@ -46,7 +46,7 @@
     - und ist $q < 1$, so konvergiert die Reihe, ist $q > 1$, so divergiert die Reihe. 
     - Falls $q = 1$ist, ist der Grenzwert nicht definiert
 - 
-- ^^Wurzelkriterium^^>>>
+# Wurzelkriterium
     - Es sei eine Reihe
 
       $$\sum_{i=1}^{\infty}a_i$$
